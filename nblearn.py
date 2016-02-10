@@ -5,7 +5,7 @@ import math
 from nltk.stem import PorterStemmer
 import codecs
 stemmer=PorterStemmer()
-mainfolder = "C:/USC Course material/CS - 544 NLP/Assignments/Assignment2/op_spam_train - new"
+mainfolder = "C:/CS - 544 NLP/op_spam_train"
 stopwordfilename = '/stopwords_en.txt'
 
 #Initialize variables for priors and posterior probabilities

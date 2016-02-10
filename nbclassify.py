@@ -8,7 +8,7 @@ with open('mymodel.txt','r') as inf:
     for line in inf:
         dicts_from_file.append(eval(line))
             
-mainfolder = "C:/USC Course material/CS - 544 NLP/Assignments/Assignment2/op_spam_train_test - new"
+mainfolder = "C:/CS - 544 NLP/op_spam_train_test - new"
 stopwordfilename = '/stopwords_en.txt'
 
 def remove_stopwords(text):
